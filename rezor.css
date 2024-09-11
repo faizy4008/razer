@@ -1,0 +1,434 @@
+.nav{
+    background-color: black;
+    padding: 10px;
+    border-bottom: 1px solid #44D62C;
+   
+}
+body{
+    margin:0;
+    padding: 0%;
+}
+.nav-item{
+flex-grow: 10;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+
+    
+}
+.nav-item a{
+    font-family: system-ui;
+    text-decoration: none;
+    color: #bbb;
+    font-size: small;
+}
+
+.image{
+    width: 41px;
+    height: 39px;
+}
+.not-banner{
+    padding: 13px;
+    background-color: gray;
+}
+.not-banner a{
+    margin-left: 28%;
+    color: white;
+    font-family: system-ui;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.gaming{
+   
+  background: url(razer-wolverine-v3-pro-homepage-desktop2x.webp);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 10px solid #222;
+}
+    
+.gaming-text1{
+   
+    font-size: 54px;
+    font-weight: 500;
+    color: #fff;
+    font-family: system-ui;
+    align-self: center;
+}
+.gaming-text2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    font-family: system-ui;
+    align-self: center;
+    margin-top: -82px;
+   
+}
+.gaming-text3{
+        display: flex;
+       align-self: center;
+        font-size: 21px;
+        font-weight: 300;
+        color: #fff;
+        font-family: system-ui;
+        gap: 27px;
+        margin-top: -51px;
+        margin-left: 10px;
+        margin-left: -5px;
+}
+.laptops{
+    background: url(intel-gamer-days-2024-homepage-desktop2x.webp);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 10px solid #222;
+}
+
+.laptop-text1{
+   
+    font-size: 54px;
+    font-weight: 500;
+    color: #fff;
+    font-family: system-ui;
+    align-self: center;
+}
+.laptop-text2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    font-family: system-ui;
+    align-self: center;
+   
+}
+.laptop-text3{
+    font-size: 21px;
+    font-weight: 300;
+    color: #fff;
+    font-family: system-ui;
+    align-self: center;
+    margin-top: 10px;
+}
+.edge{
+
+    background: url(edgwins-homepage-desktop2x.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 10px solid #222;
+  }
+  .edge-text1{
+    font-size: 54px;
+    font-weight: 500;
+    color: #fff;
+    font-family: system-ui;
+    align-self: center;
+  }
+  .edge-text2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+    font-family: system-ui;
+    align-self: center;
+  }
+
+  .edge-text3{
+    font-size: 21px;
+    font-weight: 300;
+    color: #fff;
+    font-family: system-ui;
+    align-self: center;
+    margin-top: 10px;
+  }
+  .two-imagea{
+    display: flex;
+   background-color: black;
+   width: 100%;
+   height: 100vh;
+   
+  }
+  .two-image1{
+   background: url(razercon-2024-b-950x580-desktop\ \ con.webp);
+   width: 49%;
+   height: 100%;
+  background-position: center;
+  background-size: cover;
+  border-right: 10px solid #222;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+    font-family: system-ui;
+  }
+
+  .two-image1-text1 {
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 45px;
+    align-self: center;
+  }
+
+  .two-image1-text2 {
+    font-size: 20px;
+    font-weight: 300;
+    align-self: center;
+    
+  }
+  .two-image1-text3 {
+    font-size: 19px;
+    font-weight: 300;  
+    margin-top: 5px;
+    align-self: center;
+  }
+
+  .two-image2{
+  background: url(razer-kraken-v4-homepage-b-950x580-desktop.webp);
+  width: 50%;
+  height: 100%;
+ background-position: center;
+ background-size: cover;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+    font-family: system-ui;
+ 
+  }
+  .two-image2-text1 {
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 45px;
+    align-self: center;
+  }
+
+  .two-image2-text2 {
+    font-size: 20px;
+    font-weight: 300;
+    align-self: center;
+    
+  }
+  .two-image2-text3 {
+    font-size: 19px;
+    font-weight: 300;
+    align-self: center;
+    margin-top: 5px;
+  }
+
+.sep1{
+  background-color: #222;
+  width: 100%;
+  height: 10px;
+}
+
+
+  .two-imageb{
+    display: flex;
+   background-color: black;
+   width: 100%;
+   height: 100vh;
+   
+  }
+
+
+  .two-imageb1{
+    background: url(razer-blade-18-2024-b-950x580-desktop.webp);
+   width: 50%;
+   height: 100%;
+  background-position: center;
+  background-size: cover;
+  border-right: 10px solid #222;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+    font-family: system-ui;
+  }
+
+  .two-imageb1-text1 {
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 45px;
+    align-self: center;
+  }
+
+  .two-imageb1-text2 {
+    font-size: 20px;
+    font-weight: 300;
+    align-self: center;
+    
+  }
+  .two-imageb1-text3 {
+    font-size: 17px;
+    font-weight: 300;
+    align-self: center;
+    margin-top: 5px;
+  }
+
+  .two-imageb2{
+    background: url(razer-x-fortnite-collab-b-950x580-desktop.webp);
+   width: 50%;
+   height: 100%;
+  background-position: center;
+  background-size: cover;
+  border-right: 10px solid #222;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+    font-family: system-ui;
+  }
+  .two-imageb2-text1 {
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 45px;
+    align-self: center;
+  }
+
+  .two-imageb2-text2 {
+    font-size: 20px;
+    font-weight: 300;
+    align-self: center;
+    
+  }
+  .two-imageb2-text3 {
+    font-size: 17px;
+    font-weight: 300;
+    align-self: center;
+    margin-top: 5px;
+  }
+
+  .sep1{
+    background-color: #222;
+    width: 100%;
+    height: 10px;
+  }
+
+
+  .two-imagec{
+    display: flex;
+   background-color: black;
+   width: 100%;
+   height: 100vh;
+   
+  }
+
+
+
+  .two-imagec1{
+    background: url(chair-q3-campaign-b-950x580-desktop.webp);
+   width: 50%;
+   height: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+  border-right: 10px solid #222;
+  border-bottom: 10px solid #222;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+    font-family: system-ui;
+  }
+
+  .two-imagec1-text1 {
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 45px;
+    align-self: center;
+  }
+
+  .two-imagec1-text2 {
+    font-size: 20px;
+    font-weight: 300;
+    align-self: center;
+    
+  }
+  .two-imagec1-text3 {
+    font-size: 17px;
+    font-weight: 300;
+    align-self: center;
+    margin-top: 5px;
+  }
+
+  .two-imagec2{
+    background: url(razerstore-rewards-sep-2024-desktop.webp);
+   width: 50%;
+   height: 100%;
+  background-position: center;
+  background-size: cover;
+  border-right: 10px solid #222;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+    font-family: system-ui;
+  }
+
+  .two-imagec2-text1 {
+    font-size: 44px;
+    font-weight: 500;
+    margin-top: 45px;
+    align-self: center;
+  }
+
+  .two-imagec2-text1br {
+    font-size: 46px;
+    font-weight: 500;
+    align-self: center;
+  }
+
+  .two-imagec2-text2 {
+    font-size: 20px;
+    font-weight: 300;
+    align-self: center;
+    
+  }
+  .two-imagec2-text3 {
+    font-size: 17px;
+    font-weight: 300;
+    align-self: center;
+    margin-top: 5px;
+  }
+
+  .sep1{
+    background-color: #222;
+    width: 100%;
+    height: 10px;
+  }
+
+  .footer-main{
+    display: flex;
+    align-items: baseline;
+    padding: 30px;
+    background-color: black;
+    
+
+  }
+
+  .footersub{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 25px;
+    margin-right: 50px ;
+
+
+  }
+  .footersub a{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #bbb;
+  font-size: small;
+ 
+  }
+
+  .footersub h3{
+    font-family: sans-serif;
+    color: white;
+    font-size:small ;
+  }
